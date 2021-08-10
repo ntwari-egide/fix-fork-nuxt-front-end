@@ -12,7 +12,7 @@
 </template>
 
 <script>
-    import Joke from "../Joke";
+    import Joke from "../../components/Joke";
     import SearchJoke from "../../components/SearchJokes";
 
     export default{
@@ -23,7 +23,7 @@
         },
 
         methods: {
-            searchText = (text) =>{
+            async searchText(text){
                 this.jokes = [{
                         id: '2',
                         joke: 'this is the testing joke 2, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex nihil modi molestiae iure pariatur praesentium voluptates velit cum. Error sit facilis temporibus blanditiis quaerat quo et eos cupiditate quibusdam expedita.'
