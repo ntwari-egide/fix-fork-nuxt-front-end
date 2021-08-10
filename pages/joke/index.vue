@@ -1,8 +1,10 @@
 <template>
     <div>
-        <div class="joke border my-4 p-2">
-            <p>{{ joke }}</p>
-        </div>
+        <nuxt-link :to=" 'jokes/'+id ">
+            <div class="joke border my-4 p-2">
+                <p>{{ joke }}</p>
+            </div>
+        </nuxt-link>
     </div>
 </template>
 

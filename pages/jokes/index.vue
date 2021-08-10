@@ -3,6 +3,9 @@
         <AppHeader />
         <div class="p-4">
             <h1 class="text-lg font-semibold text-center">Jokes</h1>
+
+            <SearchJoke v-on:search-text="searchText"/>
+
             <Joke v-for="joke in jokes" :key="joke.id" :id="joke.id" :joke="joke.joke"/>
         </div>
     </div>
@@ -10,11 +13,22 @@
 
 <script>
     import Joke from "../Joke";
+    import SearchJoke from "../../components/SearchJokes";
 
     export default{
         
         components: {
-            Joke
+            Joke,
+            SearchJoke
+        },
+
+        methods: {
+            searchText = (text) =>{
+                this.jokes = [{
+                        id: '2',
+                        joke: 'this is the testing joke 2, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex nihil modi molestiae iure pariatur praesentium voluptates velit cum. Error sit facilis temporibus blanditiis quaerat quo et eos cupiditate quibusdam expedita.'
+                }]
+            } 
         },
 
         // set data information
