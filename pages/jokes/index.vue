@@ -16,11 +16,24 @@
         },
 
         // action to run when this page is reloaded
-        created(){
+        async created(){
             const config = {
                 headers: {
                     'Accept':"application/json"
                 }
+            }
+
+            try {
+                // const  res = await axios.get('localhost:3000/apis/jokes', config);
+
+                this.jokes = [
+                    {
+                        
+                    }
+                ]
+
+            } catch (error) {
+                
             }
         },
 
