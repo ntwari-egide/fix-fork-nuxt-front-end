@@ -1,8 +1,8 @@
 <template>
     <div>
         <AppHeader />
-        <div>
-            <h1>jokes</h1>
+        <div class="p-4">
+            <h1 class="text-lg font-semibold text-center">Jokes</h1>
             <Joke v-for="joke in jokes" :key="joke.id" :id="joke.id" :joke="joke.joke"/>
         </div>
     </div>

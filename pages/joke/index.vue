@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="joke">
+        <div class="joke border my-4 p-2">
             <p>{{ joke }}</p>
         </div>
     </div>
