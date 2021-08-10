@@ -1,5 +1,8 @@
 <template>
-    <h1>Welcome to the best corny dad's jokes</h1>
+    <div>
+      <AppHeader />
+      <h1>Welcome to the best corny dad's jokes</h1>
+    </div>
 </template>
 
 <script>

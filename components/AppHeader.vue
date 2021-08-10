@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-        <ul>
+        <ul class="flex grid grid-cols-3 py-8 px-4 bg-black text-white font-bold">
             <li>
                 <nuxt-link to="/">Home</nuxt-link>
             </li>
