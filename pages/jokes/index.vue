@@ -1,7 +1,10 @@
 <template>
     <div>
         <AppHeader />
-        <div>jokes</div>
+        <div>
+            <h1>jokes</h1>
+            <Joke v-for="joke in jokes" :key="joke.id" :id="joke.id" :joke="joke.joke"/>
+        </div>
     </div>
 </template>
 
@@ -28,7 +31,20 @@
 
                 this.jokes = [
                     {
-                        
+                        id: '1',
+                        joke: 'this is the testing joke 1,Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex nihil modi molestiae iure pariatur praesentium voluptates velit cum. Error sit facilis temporibus blanditiis quaerat quo et eos cupiditate quibusdam expedita.'
+                    },
+                    {
+                        id: '2',
+                        joke: 'this is the testing joke 2, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex nihil modi molestiae iure pariatur praesentium voluptates velit cum. Error sit facilis temporibus blanditiis quaerat quo et eos cupiditate quibusdam expedita.'
+                    },
+                    {
+                        id: '3',
+                        joke: 'this is the testing joke 3, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex nihil modi molestiae iure pariatur praesentium voluptates velit cum. Error sit facilis temporibus blanditiis quaerat quo et eos cupiditate quibusdam expedita.'
+                    },
+                    {
+                        id: '4',
+                        joke: 'this is the testing joke 4, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex nihil modi molestiae iure pariatur praesentium voluptates velit cum. Error sit facilis temporibus blanditiis quaerat quo et eos cupiditate quibusdam expedita.'
                     }
                 ]
 
