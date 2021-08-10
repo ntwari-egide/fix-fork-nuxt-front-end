@@ -1,6 +1,5 @@
 <template>
     <div>
-        <AppHeader />
         <div class="joke">
             <p>{{ joke }}</p>
         </div>

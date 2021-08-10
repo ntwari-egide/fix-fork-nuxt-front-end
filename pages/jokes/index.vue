@@ -9,7 +9,13 @@
 </template>
 
 <script>
+    import Joke from "../Joke";
+
     export default{
+        
+        components: {
+            Joke
+        },
 
         // set data information
         data(){
