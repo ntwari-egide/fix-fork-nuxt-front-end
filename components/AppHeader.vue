@@ -1,0 +1,23 @@
+<template>
+    <header class="header">
+        <ul>
+            <li>
+                <nuxt-link to="/">Home</nuxt-link>
+            </li>
+            <li>
+                <nuxt-link to="/jokes">Jokes</nuxt-link>
+            </li>
+            <li>
+                <nuxt-link to="/about">About</nuxt-link>
+            </li>
+        </ul>
+    </header>
+</template>
+
+<script>
+    export default{}
+</script>
+
+<style>
+
+</style>
