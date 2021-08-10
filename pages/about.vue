@@ -1,5 +1,6 @@
 <template>
     <div>
+        <AppHeader />
         <h1>About dad's jokes</h1>
         <p>This is an app which manage dad's jokes</p>
     </div>

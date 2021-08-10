@@ -1,13 +1,12 @@
 <template>
     <div>
       <AppHeader />
-      <h1>Welcome to the best corny dad's jokes</h1>
+      <Nuxt />
     </div>
 </template>
 
 <script>
     export default{
-        // setting heading
         head(){
             return {
                 title: "Welcome page of dad's jokes",

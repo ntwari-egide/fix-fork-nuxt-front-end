@@ -1,10 +1,29 @@
 <template>
-    <div>jokes</div>
-
+    <div>
+        <AppHeader />
+        <div>jokes</div>
+    </div>
 </template>
 
 <script>
     export default{
+
+        // set data information
+        data(){
+            return {
+                jokes: []
+            }
+        },
+
+        // action to run when this page is reloaded
+        created(){
+            const config = {
+                headers: {
+                    'Accept':"application/json"
+                }
+            }
+        },
+
         // setting heading
         head(){
             return {
