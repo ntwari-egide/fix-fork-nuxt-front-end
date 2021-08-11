@@ -1,8 +1,8 @@
 <template>
     <div>
-       <form @submit.prevent="onSubmit">
-           <input type="text" v-model="text" class="form-control" placeholder="search joke ...">
-            <input type="submit" value="Search Jokes">
+       <form @submit.prevent="onSubmit" class="form-control">
+           <input type="text" v-model="text" class="p-2 border" placeholder="search joke ...">
+            <input type="submit" class="p-2 border" value="Search Jokes">
        </form>
     </div>
 </template>

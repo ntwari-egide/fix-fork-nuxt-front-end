@@ -2,7 +2,7 @@
     <div>
         <AppHeader />
         <div class="p-4">
-            <h1 class="text-lg font-semibold text-center">Jokes</h1>
+            <h1 class="text-lg font-semibold text-center mb-4">Jokes</h1>
 
             <SearchJoke v-on:search-text="searchText"/>
 
