@@ -1,9 +1,9 @@
 <template>
     <div>
         <AppHeader />
-        <article>
+        <!-- <article>
             <nuxt-content :document="article" />
-        </article>
+        </article> -->
         <article>
             <h1>{{ article.title }}</h1>
             <p>{{ article.description }}</p>
@@ -11,6 +11,8 @@
             <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
             
             <nuxt-content :document="article" />
+
+            <h1>Adding code block in markdown file</h1>
         </article>
     </div>
 </template>
