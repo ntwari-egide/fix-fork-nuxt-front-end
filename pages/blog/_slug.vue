@@ -22,9 +22,13 @@
                 type="search"
                 autocomplete="off"
                 placeholder="Search Articles"
+                class="p-4 border mt-4"
                 />
+
+                <h2 class="font-bold"> Results({{articles.length}}) </h2>
+
                 <ul v-if="articles.length">
-                    <li v-for="article of articles" :key="article.slug">
+                    <li class="italic" v-for="article of articles" :key="article.slug">
                         <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">{{ article.title }}
                         </NuxtLink>
                     </li>
