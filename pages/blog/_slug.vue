@@ -15,6 +15,21 @@
             <h1>Adding code block in markdown file</h1>
             <h1 class="font-bold">Add a search field</h1>
             <p>The Nuxt content module gives us the possibility of searching through our articles by using the <pre>search()</pre> method.</p>        
+
+            <div>
+                <input
+                v-model="searchQuery"
+                type="search"
+                autocomplete="off"
+                placeholder="Search Articles"
+                />
+                <ul v-if="articles.length">
+                    <li v-for="article of articles" :key="article.slug">
+                        <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">{{ article.title }}
+                        </NuxtLink>
+                    </li>
+                </ul>
+            </div>
         </article>
     </div>
 </template>
@@ -38,6 +53,20 @@
         async asyncData({ $content, params }) {
             const article = await $content('articles', params.slug).fetch()
             return { article }
+        },
+        watch: {
+            async searchQuery(searchQuery){
+                if (!searchQuery) {
+                    this.articles = []
+                return
+                }
+
+                this.articles = await this.$content('articles')
+                .limit(6)
+                .search(searchQuery)
+                .fetch()
+                
+            }
         }
     }
 </script>
