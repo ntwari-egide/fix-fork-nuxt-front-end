@@ -63,8 +63,10 @@
                 </div>
             </div>
             <div class="latests-news mt-4">
-                <div class="opensource">
-
+                <div class="opensource p-4">
+                    <div class="">
+                        <p style="color: #ffffffbf">Open source project</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,7 +85,7 @@
         },
         head(){
             return {
-                title: "Welcome page of dad's jokes",
+                title: "Fix&Fork: Welcome page of dad's jokes",
                 meta: [{
                     hid: "description",
                     name: 'description',
@@ -278,7 +280,8 @@ margin-left: 210px;
 
 .posts-container .latests-news .opensource{
     height: 289px;
-    background: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.466)),url('../assets/images/post-type.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.466)),url('../assets/images/post-type.jpg');    
+    background-size: cover;
     border-radius: 15px;
 }
 
