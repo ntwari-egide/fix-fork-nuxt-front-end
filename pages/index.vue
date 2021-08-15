@@ -64,9 +64,52 @@
             </div>
             <div class="latests-news mt-4">
                 <div class="opensource p-4">
-                    <div class="">
-                        <p style="color: #ffffffbf">Open source project</p>
+                    <div class="center" style="text-align: center;">
+                        <p style="color: #ffffffbf" class="text-sm">Open source project</p>
+                        <p style="color: #ffffffbf" class="text-sm mt-2">2 Aug.2021</p>
+                        <p style="color: #ffffffbf" class="text-sm">100 comments</p>
+                        <p style="color: white;font-weight: 500;padding: 22px 81px;" class="text-md mt-4">Content  AdBlocker project built in Nest Js, Mongo DB, Amazon WS, Docker, CI CD </p>
                     </div>
+                </div>
+                <h1 class="text-center mt-4 font-semibold">TRENDING POSTS</h1>
+                <div class="mt-2">
+                    <p class="text-sm" style="color: rgba(0, 0, 0, 0.726)">26 July.2021</p>
+                    <div class="flex">
+                        <div class="mt-6 post-counter">
+                            <p>1</p>
+                        </div>
+                        <div>
+                            <p class="ml-8 text-sm mt-8" style="line-height: 28px">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was</p>
+                        </div>
+                    </div>
+                     
+                     <hr class="mt-4"/>
+                </div>
+                <div class="mt-2">
+                    <p class="text-sm" style="color: rgba(0, 0, 0, 0.726)">26 July.2021</p>
+                    <div class="flex">
+                        <div class="mt-6 post-counter">
+                            <p>2</p>
+                        </div>
+                        <div>
+                            <p class="ml-8 text-sm mt-8" style="line-height: 28px">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was</p>
+                        </div>
+                    </div>
+                     
+                     <hr class="mt-4"/>
+                </div>
+                <div class="mt-2">
+                    <p class="text-sm" style="color: rgba(0, 0, 0, 0.726)">26 July.2021</p>
+                    <div class="flex">
+                        <div class="mt-6 post-counter">
+                            <p>3</p>
+                        </div>
+                        <div>
+                            <p class="ml-8 text-sm mt-8" style="line-height: 28px">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was</p>
+                        </div>
+                    </div>
+                     
+                     <hr class="mt-4"/>
                 </div>
             </div>
         </div>
@@ -283,6 +326,21 @@ margin-left: 210px;
     background: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.466)),url('../assets/images/post-type.jpg');    
     background-size: cover;
     border-radius: 15px;
+}
+
+.posts-container .latests-news .post-counter{
+    background: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.466)),url('../assets/images/post-type.jpg');    
+    height: 70%;
+    background-size: cover;
+    width: 70%;
+    border-radius: 100%;
+    padding: 32px;
+}
+
+.posts-container .latests-news .post-counter p{
+    text-align: center;
+    color: white;
+    font-size: 56px;
 }
 
 </style>
