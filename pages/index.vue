@@ -2,8 +2,8 @@
     <div>
         <WelcomeHomePage />
         <div class="post-types-container grid grid-cols-4 gap-4">
-            <div class="post-type">
-
+            <div class="post-type items-center">
+                <p>Java Script</p>
             </div>
         </div>
     </div>
@@ -61,8 +61,17 @@ margin-left: 210px;
 }
 
 .post-types-container .post-type{
-    height: 200px;
-    background: red;
+    height: 157px;
+    background: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.466)),url('../assets/images/post-type.jpg');    
+    background-size: cover;
+}
+
+.post-types-container .post-type p{
+    text-align: center;
+    padding: 70px;
+    color: #ffffffc4;
+    font-family: Manrope;
+    font-weight: 400;
 }
 
 </style>
