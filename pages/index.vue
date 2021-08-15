@@ -2,7 +2,28 @@
     <div>
         <WelcomeHomePage />
         <div class="post-types-container grid grid-cols-4 gap-4">
-            <div class="post-type items-center">
+            <div class="cursor post-type items-center">
+                <p>Java Script</p>
+            </div>
+            <div class="cursor post-type items-center">
+                <p>Java Script</p>
+            </div>
+            <div class="cursor post-type items-center">
+                <p>Java Script</p>
+            </div>
+            <div class="cursor post-type items-center">
+                <p>Java Script</p>
+            </div>
+            <div class="cursor post-type items-center">
+                <p>Java Script</p>
+            </div>
+            <div class="cursor post-type items-center">
+                <p>Java Script</p>
+            </div>
+            <div class="cursor post-type items-center">
+                <p>Java Script</p>
+            </div>
+            <div class="cursor post-type items-center">
                 <p>Java Script</p>
             </div>
         </div>
@@ -58,6 +79,7 @@
 margin-left: 210px;
     margin-top: 74px;
     margin-bottom: 17px;
+    margin-right: 60px;
 }
 
 .post-types-container .post-type{
