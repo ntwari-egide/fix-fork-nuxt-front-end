@@ -1,7 +1,9 @@
 <template>
     <div>
         <div class="welcome-home-page bg-blue">
-
+            <div class="logo-section">
+                <img src="../assets/images/logo1.svg" alt="">
+            </div>
         </div>
     </div>
 </template>
