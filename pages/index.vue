@@ -1,44 +1,21 @@
 <template>
     <div>
         <WelcomeHomePage />
-        <div class="post-types-container grid grid-cols-4 gap-4">
-            <div class="cursor post-type items-center">
-                <p>Java Script</p>
-            </div>
-            <div class="cursor post-type items-center">
-                <p>Java Script</p>
-            </div>
-            <div class="cursor post-type items-center">
-                <p>Java Script</p>
-            </div>
-            <div class="cursor post-type items-center">
-                <p>Java Script</p>
-            </div>
-            <div class="cursor post-type items-center">
-                <p>Java Script</p>
-            </div>
-            <div class="cursor post-type items-center">
-                <p>Java Script</p>
-            </div>
-            <div class="cursor post-type items-center">
-                <p>Java Script</p>
-            </div>
-            <div class="cursor post-type items-center">
-                <p>Java Script</p>
-            </div>
-        </div>
+        <PostTypesContainer />
     </div>
 </template>
 
 <script>
     import Navbar from "../components/NavBar.vue";
     import WelcomeHomePage from "../components/WelcomeHomePage.vue";
+    import PostTypesContainer from "../components/PostTypesContainer.vue";
 
     export default{
 
         components() {
             NavBar,
-            WelcomeHomePage
+            WelcomeHomePage,
+            PostTypesContainer
         },
         head(){
             return {
@@ -79,7 +56,7 @@
 margin-left: 210px;
     margin-top: 74px;
     margin-bottom: 17px;
-    margin-right: 60px;
+    margin-right: 54px;
 }
 
 .post-types-container .post-type{

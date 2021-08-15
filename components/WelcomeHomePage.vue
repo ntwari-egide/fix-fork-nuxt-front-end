@@ -78,9 +78,9 @@ export default {
 
 .welcome-center-content .rightcontainer{
     height: 326px;
-    width: 518px;
+    width: 534px;
     background: rgba(255, 255, 255, 0.185);
-    margin-left: 108px;
+    margin-left: 249px;
 }
 
 .welcome-center-content{
@@ -125,7 +125,7 @@ font-size: 13px;
     transition: ease-in-out 0.4s;
 }
 .header-navbar{
-    margin-top: 163px;
+margin-top: 209px;
     margin-left: 211px;
     color: #ffffffc7;
     font-weight: 400;
