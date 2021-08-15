@@ -51,7 +51,9 @@
 
 .welcome-home-page{
     height: 100vh;
-    background: red;
+    background: url('../assets/images/welcome-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 </style>
