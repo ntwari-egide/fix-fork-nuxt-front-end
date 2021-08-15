@@ -269,14 +269,16 @@ margin-left: 210px;
 }
 
 .posts-container .posts{
-    height: 400px;
+height: 400px;
     background: blue;
-    width: 106px;
+    width: 57%;
 }
 
 .posts-container .latests-news{
     height: 400px;
     background: green;
+    width: 40%;
+    margin-left: 50px;
 }
 
 
