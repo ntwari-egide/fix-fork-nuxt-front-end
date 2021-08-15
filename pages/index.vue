@@ -80,6 +80,15 @@
                 <p>Java Script</p>
             </div>
         </div>
+
+        <div class="mt-24 flex posts-container">
+            <div class="posts">
+
+            </div>
+            <div class="latests-news">
+
+            </div>
+        </div>
     </div>
 </template>
 
@@ -252,5 +261,23 @@ margin-left: 210px;
     font-family: Manrope;
     font-weight: 400;
 }
+
+.posts-container{
+    margin-left: 210px;
+    margin-bottom: 17px;
+    margin-right: 54px;
+}
+
+.posts-container .posts{
+    height: 400px;
+    background: blue;
+    width: 106px;
+}
+
+.posts-container .latests-news{
+    height: 400px;
+    background: green;
+}
+
 
 </style>
