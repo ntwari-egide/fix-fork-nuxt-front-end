@@ -35,4 +35,24 @@ export default {
 
 <style>
 
+.post-types-container{
+margin-left: 210px;
+    margin-top: 74px;
+    margin-bottom: 17px;
+    margin-right: 54px;
+}
+
+.post-types-container .post-type{
+    height: 157px;
+    background: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.466)),url('../assets/images/post-type.jpg');    
+    background-size: cover;
+}
+
+.post-types-container .post-type p{
+    text-align: center;
+    padding: 70px;
+    color: #ffffffc4;
+    font-family: Manrope;
+    font-weight: 400;
+}
 </style>
