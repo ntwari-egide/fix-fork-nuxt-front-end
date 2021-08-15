@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="welcome-home-page bg-blue pl-0 p-6">
+        <div class="welcome-home-page bg-blue pl-0 p-6 mb-8">
             <!-- <NavBar /> -->
             <div class="logo-section flex items-center justify-between">
                 <img class="ml-6" src="../assets/images/logo1.svg" alt="">
@@ -29,6 +29,30 @@
 
                 </div>
             </div>
+
+            <div class="header-navbar flex items-center justify-between mt-8">
+                <div class="left-content flex">
+                    <nuxt-link to="/" class="active-link">Home</nuxt-link>
+                    <nuxt-link to="/"  class="ml-8">About</nuxt-link>
+                    <nuxt-link to="/"  class="ml-8">Issues</nuxt-link>
+                    <nuxt-link to="/"  class="ml-8">Questions</nuxt-link>
+                    <nuxt-link to="/"  class="ml-8">Open source projects</nuxt-link>
+                </div>
+                <div class="right-content flex items-center">
+                    <nuxt-link to="/">Login</nuxt-link>
+                    <nuxt-link to="/" class="ml-8">
+                        <button class="flex subscribe-button">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18.07" height="18.07" viewBox="0 0 18.07 18.07">
+                            <path id="Icon_ionic-ios-add" data-name="Icon ionic-ios-add" d="M25.91,16.875H19.125V10.09a1.125,1.125,0,0,0-2.25,0v6.785H10.09a1.125,1.125,0,0,0,0,2.25h6.785V25.91a1.125,1.125,0,0,0,2.25,0V19.125H25.91a1.125,1.125,0,0,0,0-2.25Z" transform="translate(-8.965 -8.965)" fill="#fff"/>
+                            </svg>
+                            </span>
+                        <span>subscribe</span>
+                    </button>
+                    </nuxt-link>
+                </div>
+            </div>
+
         </div>
     </div>
 </template>
@@ -77,7 +101,7 @@
 <style>
 
 .welcome-home-page{
-    height: 100vh;
+    height: 107vh;
     background: url('../assets/images/welcome-bg.svg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -129,5 +153,39 @@ font-size: 13px;
     padding: 10px 60px;
     border-radius: 5px;
 }
+
+.welcome-center-content .centercontainer button:hover{
+    background: #ffffff4a;
+    transition: ease-in-out 0.4s;
+}
+.header-navbar{
+    margin-top: 163px;
+    margin-left: 211px;
+    color: #ffffffc7;
+    font-weight: 400;
+}
+.header-navbar .right-content .subscribe-button{
+border: 1px solid #ffffff78;
+    padding: 6px 37px;
+    font-size: 13px;
+}
+
+.header-navbar .left-content a:hover{
+    border-bottom: 1px solid #ffffff69;
+    transition: ease-in-out 0.3s;
+}
+.header-navbar .left-content .active-link{
+    color: #ffffff;
+    border-bottom: 1px solid white;
+    width: 17px;
+    margin-right: 15px;
+}
+
+.header-navbar .right-content .subscribe-button svg{
+    height: 19px;
+    padding-top: 4px;
+    margin-right: 6px;
+}
+
 
 </style>
