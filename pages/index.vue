@@ -50,7 +50,8 @@
 <style>
 
 .welcome-home-page{
-
+    height: 100vh;
+    background: red;
 }
 
 </style>
