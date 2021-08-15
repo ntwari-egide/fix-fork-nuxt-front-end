@@ -23,6 +23,7 @@
                 <div class="centercontainer mt-6 ml-32">
                     <h1>Time to Get Your Code <br />Clean and in Order.</h1>
                     <h4>The longer it takes for a bug <br />to surface, the harder it is to find.</h4>
+                    <button class="mt-4">Read more</button>
                 </div>
                 <div class="rightcontainer ml-16">
 
@@ -116,6 +117,17 @@ margin-left: 37px;}
     color: #ffffffab;
     margin-top: 24px;
     margin-left: 37px;
+}
+
+.welcome-center-content .centercontainer button{
+font-size: 13px;
+    font-weight: 300;
+    color: #ffffffab;
+    margin-top: 71px;
+    margin-left: 37px;
+    border: 1px solid #ffffffab;
+    padding: 10px 60px;
+    border-radius: 5px;
 }
 
 </style>
