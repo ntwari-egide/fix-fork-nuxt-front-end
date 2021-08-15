@@ -1,6 +1,7 @@
 <template>
     <div>
       <AppHeader />
+      <NavBar />
       <Nuxt />
         <div>
             <h1 class="font-bold">Add a search field</h1>        
@@ -28,7 +29,13 @@
 </template>
 
 <script>
+    import Navbar from "../components/NavBar.vue";
+
     export default{
+
+        components() {
+            NavBar
+        },
         head(){
             return {
                 title: "Welcome page of dad's jokes",
