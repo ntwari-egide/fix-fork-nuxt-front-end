@@ -1,6 +1,8 @@
 <template>
     <div>
-      
+        <div class="welcome-home-page bg-blue">
+
+        </div>
     </div>
 </template>
 
@@ -46,5 +48,9 @@
 </script>
 
 <style>
+
+.welcome-home-page{
+
+}
 
 </style>
