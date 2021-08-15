@@ -214,8 +214,8 @@ margin-top: 209px;
 }
 .header-navbar .right-content .subscribe-button{
     border: 1px solid #ffffff42;
-    padding: 6px 37px;
-    font-size: 13px;
+    padding: 9px 37px;
+    font-size: 17px;
     border-radius: 5px;
 }
 
@@ -236,9 +236,9 @@ margin-top: 209px;
 }
 
 .header-navbar .right-content .subscribe-button svg{
-    height: 19px;
-    padding-top: 4px;
-    margin-right: 6px;
+    height: 21px;
+    padding-top: 8px;
+    margin-right: 7px;
 }
 
 .post-types-container{
