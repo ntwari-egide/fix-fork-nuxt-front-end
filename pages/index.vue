@@ -61,6 +61,36 @@
                         <hr class="ml-12 mt-4" />
                     </div>
                 </div>
+                <div class="pointer mt-4 post-content">
+                    <div class="post-cover-img">
+                    </div>
+                    <div class="post-description mt-4">
+                        <div class="flex">
+                            <nuxt-link to="/" style="border-bottom: 1px solid rgba(0, 0, 0, 0.726); color: rgba(0, 0, 0, 0.726);" class="text-sm">JAVA SCRIPT</nuxt-link>
+                            <p class="ml-8 text-sm">8-June-2021</p>
+                        </div>
+                        <h1 class="mt-4" style="font-weight: 500;color: rgba(0, 0, 0, 0.812);">SOLVING DOCKER FILE IN GITHUB - JAVASCRIPT</h1>
+                        <p class="mt-4 des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam numquam, fugiat similique dolorum hic qui assumenda facilis odio voluptatem nostrum, deleniti minima reprehenderit.</p>
+                        <button class="mt-4">Read More</button>
+                        <p class="font-semibold text-sm mt-4">20 comments</p>
+                        <hr class="ml-12 mt-4" />
+                    </div>
+                </div>
+                <div class="pointer mt-4 post-content">
+                    <div class="post-cover-img">
+                    </div>
+                    <div class="post-description mt-4">
+                        <div class="flex">
+                            <nuxt-link to="/" style="border-bottom: 1px solid rgba(0, 0, 0, 0.726); color: rgba(0, 0, 0, 0.726);" class="text-sm">JAVA SCRIPT</nuxt-link>
+                            <p class="ml-8 text-sm">8-June-2021</p>
+                        </div>
+                        <h1 class="mt-4" style="font-weight: 500;color: rgba(0, 0, 0, 0.812);">SOLVING DOCKER FILE IN GITHUB - JAVASCRIPT</h1>
+                        <p class="mt-4 des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam numquam, fugiat similique dolorum hic qui assumenda facilis odio voluptatem nostrum, deleniti minima reprehenderit.</p>
+                        <button class="mt-4">Read More</button>
+                        <p class="font-semibold text-sm mt-4">20 comments</p>
+                        <hr class="ml-12 mt-4" />
+                    </div>
+                </div>
             </div>
             <div class="latests-news mt-4">
                 <div class="opensource p-4">
@@ -103,6 +133,32 @@
                     <div class="flex">
                         <div class="mt-6 post-counter">
                             <p>3</p>
+                        </div>
+                        <div>
+                            <p class="ml-8 text-sm mt-8" style="line-height: 28px">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was</p>
+                        </div>
+                    </div>
+                     
+                     <hr class="mt-4"/>
+                </div>
+                <div class="mt-2">
+                    <p class="text-sm" style="color: rgba(0, 0, 0, 0.726)">26 July.2021</p>
+                    <div class="flex">
+                        <div class="mt-6 post-counter">
+                            <p>4</p>
+                        </div>
+                        <div>
+                            <p class="ml-8 text-sm mt-8" style="line-height: 28px">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was</p>
+                        </div>
+                    </div>
+                     
+                     <hr class="mt-4"/>
+                </div>
+                <div class="mt-2">
+                    <p class="text-sm" style="color: rgba(0, 0, 0, 0.726)">26 July.2021</p>
+                    <div class="flex">
+                        <div class="mt-6 post-counter">
+                            <p>5</p>
                         </div>
                         <div>
                             <p class="ml-8 text-sm mt-8" style="line-height: 28px">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was</p>
@@ -183,111 +239,6 @@
 </script>
 
 <style>
-
-
-.welcome-home-page{
-    height: 107vh;
-    background: url('../assets/images/welcome-bg.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.welcome-home-page .logo-section{
-    margin-right: 45px;
-}
-.welcome-home-page .logo-section img{
-    width: 86px;
-}
-
-.welcome-center-content .rightcontainer{
-    height: 326px;
-    width: 534px;
-    background: rgba(255, 255, 255, 0.185);
-    margin-left: 306px;
-}
-
-.welcome-center-content{
-    font-family: 'Manrope';
-    margin-top: 196px;
-    margin-left: 20px;
-}
-.welcome-center-content .leftcontent p{
-    margin-top: 254px;
-    transform: rotate(270deg);
-    color: #ffffffdb;
-    font-size: 13px;
-    margin-left: 14px;
-}
-.welcome-center-content .centercontainer {
-    margin-top: 34px;
-    margin-left: 229px;
-}
-.welcome-center-content .centercontainer h1{
-    font-size: 27px;
-    font-weight: 700;
-    color: white;
-    margin-top: 24px;
-margin-left: 37px;}
-
-.welcome-center-content .centercontainer h4{
-    font-size: 19px;
-    font-weight: 300;
-    color: #ffffffab;
-    margin-top: 24px;
-    margin-left: 37px;
-}
-
-.welcome-center-content .centercontainer button{
-font-size: 15px;
-    font-weight: 300;
-    color: #ffffffab;
-    margin-top: 63px;
-    margin-left: 37px;
-    border: 1px solid #ffffffab;
-    padding: 14px 57px;
-    border-radius: 5px;
-}
-
-.welcome-center-content .centercontainer button:hover{
-    background: #ffffff4a;
-    transition: ease-in-out 0.4s;
-}
-.header-navbar{
-margin-top: 209px;
-    margin-left: 211px;
-    color: #ffffffc7;
-    font-weight: 400;
-    margin-right: 38px;
-}
-.header-navbar .right-content .subscribe-button{
-    border: 1px solid #ffffff42;
-    padding: 9px 37px;
-    font-size: 17px;
-    border-radius: 5px;
-}
-
-.header-navbar .right-content .subscribe-button:hover{
-    background: #ffffff4a;
-    transition: ease-in-out 0.4s;
-}
-
-.header-navbar .left-content a:hover{
-    border-bottom: 1px solid #ffffff69;
-    transition: ease-in-out 0.3s;
-}
-.header-navbar .left-content .active-link{
-    color: #ffffff;
-    border-bottom: 1px solid white;
-    width: 17px;
-    margin-right: 15px;
-}
-
-.header-navbar .right-content .subscribe-button svg{
-    height: 21px;
-    padding-top: 8px;
-    margin-right: 7px;
-}
-
 .post-types-container{
 margin-left: 210px;
     margin-top: 74px;
