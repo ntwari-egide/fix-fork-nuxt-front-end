@@ -135,7 +135,7 @@
     text-align: justify;
     font-size: 14px;
     line-height: 29px;
-    z-index: -1;
+    z-index: 0;
 }
 
 .blog-content .blog-title{
@@ -155,4 +155,19 @@
     margin-bottom: 16px;
     margin-top: 20px;
 }
+
+.blog-content h2{
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+
+.blog-content a{
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+
 </style>

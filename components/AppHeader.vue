@@ -46,6 +46,7 @@
     height: 10vh;
     width: 100%;
     padding-right: 29px;
+    z-index: 5;
 }
 .header-navbar .right-content .subscribe-button{
     padding: 7px 34px;
