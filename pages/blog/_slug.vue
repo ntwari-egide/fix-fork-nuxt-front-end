@@ -20,7 +20,13 @@
 </template>
 
 <script>
+    import AppHeader from "../../components/AppHeader.vue";
+
     export default{
+
+        components: {
+            AppHeader
+        },
 
         methods: {
             formatDate(date) {
@@ -36,7 +42,7 @@
 </script>
 
 <style>
-.nuxt-content h2 {
+/* .nuxt-content h2 {
  font-weight: bold;
  font-size: 28px;
  }
@@ -46,5 +52,5 @@
  }
  .nuxt-content p {
  margin-bottom: 20px;
- }
+ } */
 </style>
