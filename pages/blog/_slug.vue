@@ -66,31 +66,19 @@
             </div>
         </div>
 
-        <!-- <article>
-        <nuxt-content :document="article" />
-        </article> -->
-        <!-- <article class="p-4">
-
-            <h1>{{ article.title }}</h1>
-            <p>{{ article.description }}</p>
-            <img :src="article.img" :alt="article.alt" />
-            <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
-            
-            <nuxt-content :document="article" />
-
-            <h1>Adding code block in markdown file</h1>
-            
-        </article> -->
+        <Footer />
     </div>
 </template>
 
 <script>
     import AppHeader from "../../components/AppHeader.vue";
+    import Footer from "../../components/Footer.vue";
 
     export default{
 
         components: {
-            AppHeader
+            AppHeader,
+            Footer
         },
 
         methods: {
