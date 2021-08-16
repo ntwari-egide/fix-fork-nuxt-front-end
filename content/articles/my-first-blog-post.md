@@ -5,22 +5,44 @@ img: first-blog-post.jpg
 alt: my first blog post
 ---
 
+# Lorem ipsum dolor sit amet consectetur adipisicing elit
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum magni quam numquam distinctio quas minima molestias voluptas aut. Corporis facere, eius rerum veniam asperiores delectus non similique repellendus ipsa!
+
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptatum magni quam numquam distinctio quas minima molestias voluptas aut. Corporis facere, eius rerum veniam asperiores delectus non similique repellendus ipsa!
+
 ```js
 export default {
  nuxt: 'is the best'
 }
 ```
 
-```java
-System.out.println("This is java testing code")
-```
+# Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Unde voluptatum magni quam numquam distinctio quas minima molestias voluptas aut. Corporis facere, eius rerum veniam asperiores delectus non similique repellendus ipsa!
 
-```css
-.nuxt-content-highlight {
- @apply relative;
+
+Unde voluptatum magni quam numquam distinctio quas minima molestias voluptas aut. Corporis facere, eius rerum veniam asperiores delectus non similique repellendus ipsa!
+
+```vue
+<template>
+    <div>
+        <nuxt-link :to=" 'jokes/'+id ">
+            <div class="joke border my-4 p-2">
+                <p>{{ joke }}</p>
+            </div>
+        </nuxt-link>
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'Joke',
+    props: ['joke','id']
 }
-.nuxt-content-highlight .filename {
- @apply absolute right-0 text-gray-600 font-light z-10 mr-2 mt-1 text-sm;
-}
+</script>
+
+<style>
+
+</style>
 
 ```

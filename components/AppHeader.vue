@@ -41,7 +41,7 @@
     font-size: 14px;
     position: sticky;
     top: 0px;
-    background: #ffffffeb;
+    background: #ffffffd6;
     height: 10vh;
     width: 100%;
     padding-right: 29px;

@@ -37,10 +37,18 @@
                     </div>
                 </div>
             </div>
-            <div  style="width: 70%;background: yellow;height: 100vh">
+
+            <!-- MAIN POST SECTION -->
+
+            <div class="blog-content"  style="width: 70%;">
+                <div class="cover-img">                    
+                </div>
+                <h1 class="blog-title">SOLVING DOCKER FILE IN GITHUB - JAVASCRIPT</h1>
+                <article>
+                    <nuxt-content :document="article" />
+                </article>
             </div>
-            <div style="width: 15%;">
-                <div class="right-content pl-16" style="width: 15%;">
+            <div class="right-content pl-16" style="width: 15%;">
                 <div style="position: sticky;top: 98px;">
                     <div class="icon-action">
                         <svg id="slideshow-2-line" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
@@ -55,12 +63,11 @@
                         </svg>
                     </div>
                 </div>
-                </div>
             </div>
         </div>
 
         <!-- <article>
-            <nuxt-content :document="article" />
+        <nuxt-content :document="article" />
         </article> -->
         <!-- <article class="p-4">
 
@@ -124,5 +131,38 @@
     border-radius: 5px;
     cursor: pointer;
     width: 55px;
+}
+
+.blog-content .cover-img{
+    background: url("../../assets/images/post-background.jpg");
+    height: 63vh;
+    background-size: cover;
+    width: 100%;
+}
+
+.blog-content {
+    font-family: 'Manrope';
+    text-align: justify;
+    font-size: 14px;
+    line-height: 29px;
+    z-index: -10;
+}
+
+.blog-content .blog-title{
+    color: blue;
+    font-weight: 500;
+    font-family: Manrope;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-top: 32px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.blog-content h1{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 16px;
+    margin-top: 20px;
 }
 </style>
