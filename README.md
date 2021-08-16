@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # new_nuxt
 
 ## Build Setup
@@ -67,3 +68,7 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+=======
+# fix-fork-nuxt-front-end
+Front end development of my blog Fix &amp; Fork
+>>>>>>> 8a3d4761cd7056287ec69d3d226b26443e641a1b

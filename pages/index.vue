@@ -28,7 +28,13 @@
             </div>
         </div>
 
-        <div class="mt-24 flex posts-container">
+        <div class="grid grid-cols-3" style="transform: rotate(270deg);margin-left: -204px;width: 494px;font-family: Manrope;position: static">
+            <hr class="mt-3 w-2/3" />
+            <p class="text-center">creative digital blog</p>
+            <hr class="mt-3 w-2/3 ml-16" />
+        </div>
+
+        <div class="mt-8 flex posts-container">
             <div class="posts">
                 <div class="pointer mt-4 post-content">
                     <div class="post-cover-img">
@@ -207,7 +213,7 @@
         },
         head(){
             return {
-                title: "Fix&Fork: Welcome page of dad's jokes",
+                title: "Fix&Fork: Time to Get Your Code Clean and in Order.",
                 meta: [{
                     hid: "description",
                     name: 'description',
@@ -304,11 +310,11 @@ margin-left: 210px;
 
 .posts-container .latests-news .post-counter{
     background: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.466)),url('../assets/images/post-type.jpg');    
-    height: 70%;
+height: 100%;
     background-size: cover;
-    width: 70%;
+    width: 62%;
     border-radius: 100%;
-    padding: 32px;
+    padding: 22px;
 }
 
 .posts-container .latests-news .post-counter p{
