@@ -1,6 +1,6 @@
 <template>
     <div class="footer-container">
-        <p>COPYRGHT@ 2021 Fix Fork, All rights reserved.</p>
+        <p>COPYRGHT &copy; 2021 <strong>Fix&Fork</strong> , All rights reserved.</p>
     </div>
 </template>
 
