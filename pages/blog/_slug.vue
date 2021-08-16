@@ -40,20 +40,18 @@
             <div  style="width: 70%;background: yellow;height: 100vh">
             </div>
             <div style="width: 15%;">
-                <div class="right-content pl-12" style="width: 15%;">
+                <div class="right-content pl-16" style="width: 15%;">
                 <div style="position: sticky;top: 98px;">
                     <div class="icon-action">
-                        <svg id="git-pull-request-line" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
-                            <path id="Path_28" data-name="Path 28" d="M0,0H29V29H0Z" fill="none"/>
-                            <path id="Path_29" data-name="Path 29" d="M18.333,5.789h2.555a2.541,2.541,0,0,1,2.555,2.526v10.32a3.828,3.828,0,1,1-2.555,0V8.316H18.333v3.789l-5.75-5.053L18.333,2ZM5.556,10.627a3.8,3.8,0,1,1,5.057-4.215,3.786,3.786,0,0,1-2.5,4.215v8.008a3.8,3.8,0,1,1-5.057,4.215,3.786,3.786,0,0,1,2.5-4.215ZM6.834,8.316A1.263,1.263,0,1,0,5.556,7.053,1.271,1.271,0,0,0,6.834,8.316Zm0,15.158A1.263,1.263,0,1,0,5.556,22.21,1.271,1.271,0,0,0,6.834,23.474Zm15.333,0a1.263,1.263,0,1,0-1.278-1.263A1.271,1.271,0,0,0,22.166,23.474Z" transform="translate(0 0)"/>
+                        <svg id="slideshow-2-line" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+                            <path id="Path_34" data-name="Path 34" d="M0,0H29V29H0Z" fill="none"/>
+                            <path id="Path_35" data-name="Path 35" d="M15.75,20.75V24.5H22V27H7V24.5h6.25V20.75H4.5A1.25,1.25,0,0,1,3.25,19.5V4.5H2V2H27V4.5H25.75v15a1.25,1.25,0,0,1-1.25,1.25Zm-10-2.5h17.5V4.5H5.75ZM12,7l6.25,4.375L12,15.75Z"/>
                         </svg>
                     </div>
                     <div class="icon-action">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="27" viewBox="0 0 36 27">
-                            <g id="Icon_feather-eye" data-name="Icon feather-eye" transform="translate(0 -4.5)">
-                                <path id="Path_30" data-name="Path 30" d="M1.5,18S7.5,6,18,6,34.5,18,34.5,18,28.5,30,18,30,1.5,18,1.5,18Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-                                <path id="Path_31" data-name="Path 31" d="M22.5,18A4.5,4.5,0,1,1,18,13.5,4.5,4.5,0,0,1,22.5,18Z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-                            </g>
+                        <svg id="pencil-line" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+                            <path id="Path_36" data-name="Path 36" d="M0,0H29V29H0Z" fill="none"/>
+                            <path id="Path_37" data-name="Path 37" d="M19.269,11.538,17.462,9.731,5.556,21.636v1.807H7.364L19.269,11.538Zm1.807-1.807,1.807-1.807L21.077,6.116,19.269,7.923ZM8.422,26H3V20.576L20.173,3.4a1.278,1.278,0,0,1,1.807,0L25.6,7.02a1.278,1.278,0,0,1,0,1.807L8.424,26Z" transform="translate(0 0)"/>
                         </svg>
                     </div>
                 </div>
