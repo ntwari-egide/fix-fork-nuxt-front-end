@@ -1,5 +1,5 @@
 <template>
-        <div class="header-navbar flex items-center justify-between mt-2">
+        <div class="header-navbar flex items-center justify-between pt-2">
                 <div class="logo-section ml-4 mt-2 flex" style="font-family: Manrope;">                    
                     <p>Fix</p>
                     <span class="ml-1">&amp;</span>
@@ -39,6 +39,12 @@
     margin-right: 38px;
     font-family: Manrope;
     font-size: 14px;
+    position: sticky;
+    top: 0px;
+    background: #ffffffeb;
+    height: 10vh;
+    width: 100%;
+    padding-right: 29px;
 }
 .header-navbar .right-content .subscribe-button{
     padding: 7px 34px;
