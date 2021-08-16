@@ -84,7 +84,7 @@
 <style>
 
 .left-content div{
-    border: 1px solid #CBCBCB;
+    border: 1px solid #cbcbcb70;
     margin-bottom: 36px;
     width: 36%;
     padding: 16px;
