@@ -13,7 +13,8 @@
                     <a href="/"  class="ml-8">Open source projects</a>
                 </div>
                 <div class="right-content flex items-center">
-                    <a href="/" class="font-semibold">Login</a>
+                    <a href="/" class="font-semibold">Sign up</a>
+                    <a href="/" class="font-semibold ml-8">Login</a>
                     <a href="/" class="ml-8">
                         <button class="flex subscribe-button">
                         <span>

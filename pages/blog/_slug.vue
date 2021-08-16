@@ -66,7 +66,9 @@
             </div>
         </div>
 
-        <Footer />
+        <div class="mt-24">
+            <Footer />
+        </div>
     </div>
 </template>
 
@@ -133,7 +135,7 @@
     text-align: justify;
     font-size: 14px;
     line-height: 29px;
-    z-index: -10;
+    z-index: -1;
 }
 
 .blog-content .blog-title{

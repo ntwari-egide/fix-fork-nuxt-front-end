@@ -38,7 +38,8 @@
                     <nuxt-link to="/"  class="ml-8">Open source projects</nuxt-link>
                 </div>
                 <div class="right-content flex items-center">
-                    <nuxt-link to="/">Login</nuxt-link>
+                    <nuxt-link to="/">Sign up</nuxt-link>
+                    <nuxt-link to="/" class="ml-8">Login</nuxt-link>
                     <nuxt-link to="/" class="ml-8">
                         <button class="flex subscribe-button">
                         <span>
