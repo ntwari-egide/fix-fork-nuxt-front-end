@@ -40,7 +40,7 @@
 
             <!-- MAIN POST SECTION -->
 
-            <div class="blog-content"  style="width: 70%;">
+            <div class="blog-content mb-32"  style="width: 70%;">
                 <div class="cover-img">                    
                 </div>
                 <h1 class="blog-title">SOLVING DOCKER FILE IN GITHUB - JAVASCRIPT</h1>
@@ -66,7 +66,7 @@
             </div>
         </div>
 
-        <div class="mt-24">
+        <div class="mt-16">
             <Footer />
         </div>
     </div>
@@ -164,10 +164,12 @@
 }
 
 .blog-content a{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 13px;
     margin-bottom: 16px;
     margin-top: 20px;
+    color: black;
+    border-bottom: 1px solid #00000059;
 }
 
 </style>
