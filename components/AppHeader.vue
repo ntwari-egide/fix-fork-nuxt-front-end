@@ -21,7 +21,7 @@
                             <path id="Icon_ionic-ios-add" data-name="Icon ionic-ios-add" d="M25.91,16.875H19.125V10.09a1.125,1.125,0,0,0-2.25,0v6.785H10.09a1.125,1.125,0,0,0,0,2.25h6.785V25.91a1.125,1.125,0,0,0,2.25,0V19.125H25.91a1.125,1.125,0,0,0,0-2.25Z" transform="translate(-8.965 -8.965)" fill="#fff"/>
                             </svg>
                             </span>
-                        <span>subscribe</span>
+                        <span style="margin-top: 1px;">subscribe</span>
                     </button>
                     </a>
                 </div>
@@ -41,10 +41,11 @@
     font-size: 14px;
 }
 .header-navbar .right-content .subscribe-button{
-    border: 1px solid #ffffff42;
-    padding: 6px 37px;
+    padding: 7px 34px;
     font-size: 13px;
     border-radius: 5px;
+    background: #121CFF;
+    color: white;
 }
 
 .logo-section{
@@ -68,7 +69,7 @@
 }
 
 .header-navbar .right-content .subscribe-button:hover{
-    background: #ffffff4a;
+    background: #0400fab6;
     transition: ease-in-out 0.4s;
 }
 
