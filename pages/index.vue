@@ -210,18 +210,23 @@
                 
             </div>
         </div>
+        <div style="margin-top: 211px;">
+            <Footer />
+        </div>
     </div>
 </template>
 
 <script>
     import Navbar from "../components/NavBar.vue";
     import WelcomeHomePage from "../components/WelcomeHomePage.vue";
+    import Footer from "../components/Footer.vue";
 
     export default{
 
         components() {
             NavBar,
-            WelcomeHomePage
+            WelcomeHomePage,
+            Footer
         },
         head(){
             return {
