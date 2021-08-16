@@ -168,8 +168,13 @@
     font-size: 13px;
     margin-bottom: 16px;
     margin-top: 20px;
-    color: black;
-    border-bottom: 1px solid #00000059;
+    color: #7798f5;
+    border-bottom: 1px solid #7798f5;
+}
+
+.blog-content a:hover{
+    color: #233771;
+    border-bottom: 1px solid #233771;
 }
 
 </style>
