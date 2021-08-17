@@ -23,7 +23,7 @@ Unde voluptatum magni quam numquam distinctio quas minima molestias voluptas aut
 
 Unde voluptatum magni quam numquam distinctio quas minima molestias voluptas aut. Corporis facere, eius rerum veniam asperiores delectus non similique repellendus ipsa!
 
-```vue
+```vue[index.vue]
 <template>
     <div>
         <nuxt-link :to=" 'jokes/'+id ">

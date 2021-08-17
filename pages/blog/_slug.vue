@@ -52,18 +52,79 @@
                 <div class="comment-section mt-24">
                     <div class="comment-container">
                         <h1 style="color: #041121">Comments (3)</h1>
-                        <div class="flex w-1/3 mt-4">
+                        <div class="flex mt-4">
                             <div class="avatar mt-8 text-white bg-yellow-500 rounded-full" style="width: 40px;height: 40px;text-align: center;padding: 10px;">
                                 <p class="text-sm">AC</p>
                             </div>
-                            <div class="comment ml-8">
-                                <h1 class="commented-by text-sm" style="color: #041121">Anonymous contributor</h1>
-                                <p class="time">3hrs ago</p>
-                                <p class="content">It will benefit you in your future career as well. It hight take a lot of practice to see improvement, but don’t give up.</p>
+                            <div class="comment  w-2/4 ml-8" >
+                                <p class="commented-by text-sm  font-medium" style="color: #041121;font-size: 13px;">Anonymous contributor</p>
+                                <p class="time" style="color: #73A7CC;font-size: 11px;">3hrs ago</p>
+                                <p class="content" style="color: #041121e8;font-weight: 400;font-size: 13px;line-height: 23px;border-bottom: 2px solid #04112121;padding-bottom: 17px;">It will benefit you in your future career as well. It hight take a lot of practice to see improvement, but don’t give up.</p>
+
+                                <div class="comment-reaction flex">
+                                    <div class="reaction flex">
+                                        <svg class="mt-4" style="width: 21px;height: 21px;" xmlns="http://www.w3.org/2000/svg" width="29.25" height="28.125" viewBox="0 0 29.25 28.125">
+                                            <path id="Icon_ionic-ios-heart" data-name="Icon ionic-ios-heart" d="M24.75,3.938h-.07A8,8,0,0,0,18,7.594a8,8,0,0,0-6.68-3.656h-.07a7.949,7.949,0,0,0-7.875,7.945,17.115,17.115,0,0,0,3.361,9.33C10.969,27,18,32.063,18,32.063S25.031,27,29.264,21.213a17.115,17.115,0,0,0,3.361-9.33A7.949,7.949,0,0,0,24.75,3.938Z" transform="translate(-3.375 -3.938)" fill="#ed5622"/>
+                                        </svg>
+                                        <p class="ml-2 mt-3" style="font-size: 13px;color: #041121;">23 likes</p>
+                                    </div>
+                                    <div class="reaction flex ml-4">
+                                        
+                                        <svg class="mt-4" style="width: 21px;height: 21px;" id="chat-1-line" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+                                            <path id="Path_26" data-name="Path 26" d="M0,0H29V29H0Z" fill="none"/>
+                                            <path id="Path_27" data-name="Path 27" d="M12,3h5a10.051,10.051,0,0,1,0,20.1v4.4C10.75,24.987,2,21.218,2,13.051A10.026,10.026,0,0,1,12,3Zm2.5,17.59H17A7.539,7.539,0,0,0,17,5.513H12a7.519,7.519,0,0,0-7.5,7.538c0,4.536,3.077,7.5,10,10.654Z" transform="translate(0 0)" fill="#3a3e3e"/>
+                                        </svg>
+
+                                        <p class="ml-2 mt-3" style="font-size: 13px;color: #041121;">2 replies</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- comment replies -->
+
+                <div class="flex mt-4 ml-16">
+                    <div class="avatar mt-8 text-white bg-yellow-500 rounded-full" style="width: 40px;height: 40px;text-align: center;padding: 10px;">
+                                <p class="text-sm">AC</p>
+                    </div>
+                    <div class="comment  w-2/4 ml-8" >
+                            <p class="commented-by text-sm  font-medium" style="color: #041121;font-size: 13px;">Anonymous contributor</p>
+                            <p class="time" style="color: #73A7CC;font-size: 11px;">3hrs ago</p>
+                            <p class="content" style="color: #041121e8;font-weight: 400;font-size: 13px;line-height: 23px;border-bottom: 2px solid #04112121;padding-bottom: 17px;">It will benefit you in your future career as well. It hight take a lot of practice to see improvement, but don’t give up.</p>
+
+                            <div class="comment-reaction flex">
+                                <div class="reaction flex">
+                                    <svg class="mt-4" style="width: 21px;height: 21px;" xmlns="http://www.w3.org/2000/svg" width="29.25" height="28.125" viewBox="0 0 29.25 28.125">
+                                        <path id="Icon_ionic-ios-heart" data-name="Icon ionic-ios-heart" d="M24.75,3.938h-.07A8,8,0,0,0,18,7.594a8,8,0,0,0-6.68-3.656h-.07a7.949,7.949,0,0,0-7.875,7.945,17.115,17.115,0,0,0,3.361,9.33C10.969,27,18,32.063,18,32.063S25.031,27,29.264,21.213a17.115,17.115,0,0,0,3.361-9.33A7.949,7.949,0,0,0,24.75,3.938Z" transform="translate(-3.375 -3.938)" fill="#ed5622"/>
+                                    </svg>
+                                    <p class="ml-2 mt-3" style="font-size: 13px;color: #041121;">23 likes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <div class="flex mt-4 ml-16">
+                    <div class="avatar mt-8 text-white bg-yellow-500 rounded-full" style="width: 40px;height: 40px;text-align: center;padding: 10px;">
+                                <p class="text-sm">AC</p>
+                    </div>
+                    <div class="comment  w-2/4 ml-8" >
+                            <p class="commented-by text-sm  font-medium" style="color: #041121;font-size: 13px;">Anonymous contributor</p>
+                            <p class="time" style="color: #73A7CC;font-size: 11px;">3hrs ago</p>
+                            <p class="content" style="color: #041121e8;font-weight: 400;font-size: 13px;line-height: 23px;border-bottom: 2px solid #04112121;padding-bottom: 17px;">It will benefit you in your future career as well. It hight take a lot of practice to see improvement, but don’t give up.</p>
+
+                            <div class="comment-reaction flex">
+                                <div class="reaction flex">
+                                    <svg class="mt-4" style="width: 21px;height: 21px;" xmlns="http://www.w3.org/2000/svg" width="29.25" height="28.125" viewBox="0 0 29.25 28.125">
+                                        <path id="Icon_ionic-ios-heart" data-name="Icon ionic-ios-heart" d="M24.75,3.938h-.07A8,8,0,0,0,18,7.594a8,8,0,0,0-6.68-3.656h-.07a7.949,7.949,0,0,0-7.875,7.945,17.115,17.115,0,0,0,3.361,9.33C10.969,27,18,32.063,18,32.063S25.031,27,29.264,21.213a17.115,17.115,0,0,0,3.361-9.33A7.949,7.949,0,0,0,24.75,3.938Z" transform="translate(-3.375 -3.938)" fill="#ed5622"/>
+                                    </svg>
+                                    <p class="ml-2 mt-3" style="font-size: 13px;color: #041121;">23 likes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
             </div>
             <div class="right-content pl-16" style="width: 15%;">
                 <div style="position: sticky;top: 98px;">
@@ -192,6 +253,14 @@
 .blog-content a:hover{
     color: #233771;
     border-bottom: 1px solid #233771;
+}
+
+.nuxt-content-highlight {
+ @apply relative;
+}
+
+.nuxt-content-highlight .filename {
+ @apply absolute right-0 text-gray-600 font-light z-10 mr-2 mt-1 text-sm;
 }
 
 </style>
