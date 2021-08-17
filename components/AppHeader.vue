@@ -51,7 +51,7 @@
 .header-navbar .right-content .subscribe-button{
     padding: 7px 34px;
     font-size: 13px;
-    border-radius: 5px;
+    border-radius:0;
     background: #121CFF;
     color: white;
 }

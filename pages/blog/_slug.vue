@@ -47,6 +47,13 @@
                 <article>
                     <nuxt-content :document="article" />
                 </article>
+
+                <!-- comments section -->
+                <div class="comment-section">
+                    <div class="comment-container">
+                        
+                    </div>
+                </div>
             </div>
             <div class="right-content pl-16" style="width: 15%;">
                 <div style="position: sticky;top: 98px;">
