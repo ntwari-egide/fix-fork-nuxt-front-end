@@ -49,9 +49,19 @@
                 </article>
 
                 <!-- comments section -->
-                <div class="comment-section">
+                <div class="comment-section mt-24">
                     <div class="comment-container">
-                        
+                        <h1 style="color: #041121">Comments (3)</h1>
+                        <div class="flex w-1/3 mt-4">
+                            <div class="avatar mt-8 text-white bg-yellow-500 rounded-full" style="width: 40px;height: 40px;text-align: center;padding: 10px;">
+                                <p class="text-sm">AC</p>
+                            </div>
+                            <div class="comment ml-8">
+                                <h1 class="commented-by text-sm" style="color: #041121">Anonymous contributor</h1>
+                                <p class="time">3hrs ago</p>
+                                <p class="content">It will benefit you in your future career as well. It hight take a lot of practice to see improvement, but don’t give up.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
