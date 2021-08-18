@@ -221,7 +221,7 @@
     import WelcomeHomePage from "../components/WelcomeHomePage.vue";
     import Footer from "../components/Footer.vue";
     import API_HOST_VALUE from "../components/constants/global-axios-config.ts"
-
+    import axios from "axios"
 
     export default{
 
@@ -240,10 +240,13 @@
 
             try {
                 
-                
+                await axios.get(`${API_HOST_VALUE}/api/v1/posts`,config)
+                .then(res => {
+                    console.log('data: ',res.data);
+                })
 
             } catch (error) {
-                
+                console.log(error);
             }
         },
 
