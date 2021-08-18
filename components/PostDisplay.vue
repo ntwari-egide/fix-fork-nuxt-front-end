@@ -1,19 +1,21 @@
 <template>
-    <div class="pointer mt-4 post-content">
-        <div class="post-cover-img">
-        </div>
-        <div class="post-description mt-4">
-            <div class="flex">
-                <nuxt-link to="/" style="border-bottom: 1px solid rgba(0, 0, 0, 0.726); color: rgba(0, 0, 0, 0.726);" class="text-sm">JAVA SCRIPT</nuxt-link>
-                <p class="ml-8 text-sm">8-June-2021</p>
+    <nuxt-link :to=" 'blog/'+post.id ">
+        <div class="pointer mt-4 post-content">
+            <div class="post-cover-img">
             </div>
-            <h1 class="mt-4" style="font-weight: 500;color: rgba(0, 0, 0, 0.812);">SOLVING DOCKER FILE IN GITHUB - JAVASCRIPT</h1>
-            <p class="mt-4 des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam numquam, fugiat similique dolorum hic qui assumenda facilis odio voluptatem nostrum, deleniti minima reprehenderit.</p>
-            <button class="mt-4">Read More</button>
-            <p class="font-semibold text-sm mt-4">20 comments</p>
-            <hr class="ml-12 mt-4" />
+            <div class="post-description mt-4">
+                <div class="flex">
+                    <nuxt-link to="/" style="border-bottom: 1px solid rgba(0, 0, 0, 0.726); color: rgba(0, 0, 0, 0.726);" class="text-sm">JAVA SCRIPT</nuxt-link>
+                    <p class="ml-8 text-sm">8-June-2021</p>
+                </div>
+                <h1 class="mt-4" style="font-weight: 500;color: rgba(0, 0, 0, 0.812);">{{post.postTitle}}</h1>
+                <p class="mt-4 des">{{post.postDescription}}</p>
+                <button class="mt-4">Read More</button>
+                <p class="font-semibold text-sm mt-4">{{post.createdAt}} comments</p>
+                <hr class="ml-12 mt-4" />
+            </div>
         </div>
-    </div>
+    </nuxt-link>
 </template>
 
 <script>
