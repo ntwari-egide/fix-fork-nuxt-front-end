@@ -170,7 +170,7 @@
             Footer,
             PostDisplay
         },
-
+        
         async created(){
             const config = {
                 headers: {
@@ -186,7 +186,6 @@
                 })
 
             } catch (error) {
-                posts = []
                 console.log(error);
             }
         },
@@ -199,6 +198,21 @@
                     name: 'description',
                     content: 'Best place of corny jokes listing'
                 }]
+            }
+        },
+        watch: {
+            async searchQuery(searchQuery){
+
+                if (!searchQuery) {
+                    this.articles = []
+                return
+                }
+
+                this.articles = await this.$content('articles')
+                .limit(6)
+                .search(searchQuery)
+                .fetch()
+                
             }
         },
         data(){
@@ -234,21 +248,6 @@
                     }
                 ]
             };
-        },
-        watch: {
-            async searchQuery(searchQuery){
-
-                if (!searchQuery) {
-                    this.articles = []
-                return
-                }
-
-                this.articles = await this.$content('articles')
-                .limit(6)
-                .search(searchQuery)
-                .fetch()
-                
-            }
         }
     }
 </script>
