@@ -36,7 +36,7 @@
 
         <div class="mt-8 flex posts-container">
             <div class="posts">
-                <PostDisplay v-for='post in posts' :key="post.id" :id="post.id" />
+                <PostDisplay v-for='post in posts' :key="post.id" :id="post.id" :post="post" />
             </div>
             <div class="latests-news mt-4">
                 <div class="opensource p-4">

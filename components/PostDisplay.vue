@@ -1,6 +1,5 @@
 <template>
     <div class="pointer mt-4 post-content">
-        <p>id: {{id}}</p>
         <div class="post-cover-img">
         </div>
         <div class="post-description mt-4">
@@ -20,7 +19,7 @@
 <script>
 export default {
     name: 'PostDisplay',
-    props: ['id']
+    props: ['id','post']
     
 }
 </script>
