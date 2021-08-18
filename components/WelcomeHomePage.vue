@@ -15,7 +15,7 @@
                 </button>
             </div>
 
-            <div class="flex welcome-center-content mt-24">
+            <div class="flex welcome-center-content lg:mt-24">
                 <div class="leftcontent">
                     <p>creative digital blog</p>
                 </div>
@@ -25,7 +25,6 @@
                     <button class="mt-4">Read more</button>
                 </div>
                 <div class="rightcontainer ml-16">
-
                 </div>
             </div>
 

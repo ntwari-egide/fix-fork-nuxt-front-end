@@ -177,12 +177,12 @@
 <style>
 
 .left-content div div{
-    border: 1px solid #cbcbcb70;
+border: 1px solid #cbcbcb70;
     margin-bottom: 36px;
-    width: 36%;
     padding: 16px;
     border-radius: 5px;
     cursor: pointer;
+    width: 55px;
 }
 
 
