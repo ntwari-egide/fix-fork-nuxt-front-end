@@ -220,6 +220,8 @@
     import Navbar from "../components/NavBar.vue";
     import WelcomeHomePage from "../components/WelcomeHomePage.vue";
     import Footer from "../components/Footer.vue";
+    import API_HOST_VALUE from "../components/constants/global-axios-config.ts"
+
 
     export default{
 
@@ -228,6 +230,23 @@
             WelcomeHomePage,
             Footer
         },
+
+        created(){
+            const config = {
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }
+
+            try {
+                
+                
+
+            } catch (error) {
+                
+            }
+        },
+
         head(){
             return {
                 title: "Fix&Fork: Time to Get Your Code Clean and in Order.",
@@ -246,6 +265,7 @@
         },
         watch: {
             async searchQuery(searchQuery){
+
                 if (!searchQuery) {
                     this.articles = []
                 return
