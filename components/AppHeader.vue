@@ -1,5 +1,5 @@
 <template>
-        <div class="header-navbar flex items-center justify-between pt-2">
+        <div class="header-navbar-content flex items-center justify-between pt-2">
                 <div class="logo-section ml-4 mt-2 flex" style="font-family: Manrope;">                    
                     <p>Fix</p>
                     <span class="ml-1">&amp;</span>
@@ -34,7 +34,7 @@
 </script>
 
 <style>
-.header-navbar{
+.header-navbar-content{
     color: black;
     font-weight: 400;
     margin-right: 38px;
@@ -48,7 +48,7 @@
     padding-right: 29px;
     z-index: 5;
 }
-.header-navbar .right-content .subscribe-button{
+.header-navbar-content .right-content .subscribe-button{
     padding: 7px 34px;
     font-size: 13px;
     border-radius:0;
@@ -76,23 +76,23 @@
     border-radius: 100%;
 }
 
-.header-navbar .right-content .subscribe-button:hover{
+.header-navbar-content .right-content .subscribe-button:hover{
     background: #0400fab6;
     transition: ease-in-out 0.4s;
 }
 
-.header-navbar .left-content a:hover{
+.header-navbar-content .left-content a:hover{
     border-bottom: 1px solid #ffffff69;
     transition: ease-in-out 0.3s;
 }
-.header-navbar .left-content .active-link{
+.header-navbar-content .left-content .active-link{
     color: black;
     border-bottom: 1px solid white;
     width: 17px;
     margin-right: 15px;
 }
 
-.header-navbar .right-content .subscribe-button svg{
+.header-navbar-content .right-content .subscribe-button svg{
     height: 19px;
     padding-top: 4px;
     margin-right: 6px;

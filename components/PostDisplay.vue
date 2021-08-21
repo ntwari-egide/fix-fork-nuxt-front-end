@@ -1,5 +1,5 @@
 <template>
-    <nuxt-link :to=" 'blog/'+post.id ">
+    <nuxt-link :to=" 'blog/'+post._id ">
         <div class="pointer mt-4 post-content">
             <div class="post-cover-img">
             </div>
