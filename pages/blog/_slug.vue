@@ -163,7 +163,7 @@
         
 
         methods: {
-            dateParser = (isoDate) => {
+            dateParser(isoDate){
                 if(isoDate !== ""){
                     let date = new Date(isoDate);
                     let year = date.getFullYear();
@@ -184,7 +184,7 @@
                 
             },
 
-            timeParser  = (datePassed) => {
+            timeParser (datePassed) {
                 let isoDate= datePassed
                 let result = isoDate.match(/\d\d:\d\d:\d\d/);
                 return result[0];

@@ -215,6 +215,39 @@
                 
             }
         },
+        methods: {
+            dateParser(isoDate){
+                if(isoDate !== ""){
+                    let date = new Date(isoDate);
+                    let year = date.getFullYear();
+                    let month = date.getMonth()+1;
+                    let dt = date.getDate();
+                
+                    if (dt < 10) {
+                    dt = '0' + dt;
+                    }
+                    if (month < 10) {
+                    month = '0' + month;
+                    }
+                    return year+'-' + month + '-'+dt
+                }
+                else{
+                    return ""
+                }
+                
+            },
+
+            timeParser (datePassed) {
+                let isoDate= datePassed
+                let result = isoDate.match(/\d\d:\d\d:\d\d/);
+                return result[0];
+            },
+
+            formatDate(date) {
+            const options = { year: 'numeric', month: 'long', day: 'numeric' }
+            return new Date(date).toLocaleDateString('en', options)
+            }
+        },
         data(){
             return {
                 posts: [
@@ -264,6 +297,7 @@ margin-left: 210px;
     height: 157px;
     background: linear-gradient(rgba(0, 0, 0, 0.733),rgba(0, 0, 0, 0.466)),url('../assets/images/post-type.jpg');    
     background-size: cover;
+    cursor: pointer;
 }
 
 .post-types-container .post-type p{
