@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   generate: {
-    dir: 'my-site'
+    dir: 'public'
   },
   head: {
     title: 'new_nuxt',
